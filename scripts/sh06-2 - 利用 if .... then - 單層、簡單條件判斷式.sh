@@ -9,7 +9,7 @@ export PATH
 
 read -p "請輸入 (Y/N)：" yn
 # [ "$yn" == "Y" -o "$yn" == "y" ] && echo "好，繼續吧" && exit 0
-if[ "$yn" == "Y" ] ||  [ "$yn" == "y" ]; then
+if [ "$yn" == "Y" ] ||  [ "$yn" == "y" ]; then
 	echo "好，繼續吧"
 	exit 0
 fi
