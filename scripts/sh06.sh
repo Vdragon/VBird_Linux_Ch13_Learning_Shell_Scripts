@@ -8,6 +8,6 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 
 read -p "請輸入 (Y/N)：" yn
-[ "$yn" == "Y" -o "$yn" == "y" ] && echo "OK，繼續" && exit 0
-[ "$yn" == "N" -o "$yn" == "n" ] && echo "喔，中止吧！" && exit 0
+[ "$yn" == "Y" -o "$yn" == "y" ] && echo "好，繼續吧" && exit 0
+[ "$yn" == "N" -o "$yn" == "n" ] && echo "喔，那就中止吧！" && exit 0
 echo "我不知道您的選擇是什麼" && exit 0
